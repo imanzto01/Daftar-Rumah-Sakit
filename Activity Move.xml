@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoveActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hospital"
+        android:id="@+id/gambar_daftar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar_daftar"
+        android:text="DAFTAR RUMAH SAKIT DI PURWOREJO"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:id="@+id/daftar_RS" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/daftar_RS"
+        android:id="@+id/A1"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="RS. Umum Daerah Tjitrowardojo Purworejo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. Jenderal Sudirman, Rw. I, Doplang, Kec. Purworejo, Kabupaten Purworejo, Jawa Tengah" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A1"
+        android:id="@+id/A2"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="Rumah Sakit Umum Aisyiyah Purworejo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. Mayjen Sutoyo No.113, Rw. VI, Sindurjan, Kec. Purworejo, Kabupaten Purworejo, Jawa Tengah" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A2"
+        android:id="@+id/A3"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="Rumah Sakit Islam Purworejo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. Magelang No.KM.2, Pongangan, Loano, Kec. Loano, Kabupaten Purworejo, Jawa Tengah" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A3"
+        android:id="@+id/A4"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="Rumah Sakit Amanah Umat Purworejo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. Brigjen Katamso No.144-A, Rw. 05, Pangenrejo, Kec. Purworejo, Kabupaten Purworejo, Jawa Tengah" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A4"
+        android:id="@+id/A5"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="Rumah Sakit Kelas C Purworejo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. Soekarno-Hatta, Rw. V, Boro Kulon, Kec. Banyuurip, Kabupaten Purworejo, Jawa Tengah" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A5"
+        android:id="@+id/A6"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="Rumah Sakit Umum Ananda Purworejo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl Lingkar Barat Utara GOR Purworejo, Dusun I, Sucenjuru Tengah, Kec. Bayan, Kabupaten Purworejo, Jawa Tengah" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A6"
+        android:id="@+id/A7"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="Rumah Sakit Budi Sehat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. WR. Supratman No. 183, Cangkrep Lor, Dusun II, Cangkreplor, Kec. Purworejo, Kabupaten Purworejo, Jawa Tengah" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A7"
+        android:id="@+id/A8"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="Rumah Sakit Ibu Dan Anak Permata"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. Mayjen Sutoyo No.75, Rw. V, Sindurjan, Kec. Purworejo, Kabupaten Purworejo, Jawa Tengah" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/A8"
+        android:id="@+id/A9"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="81dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/hospital" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:padding="5dp"
+            android:text="Rumah Sakit. Panti Waluyo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:text="Jl. A. Yani No.21, Purworejo, Kec. Purworejo, Kabupaten Purworejo, Jawa Tengah" />
+    </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
